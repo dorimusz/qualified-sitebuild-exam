@@ -47,3 +47,7 @@
     -webkit-appearance: none !important;
     border-radius: 0
   }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
