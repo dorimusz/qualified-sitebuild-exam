@@ -45,8 +45,11 @@ const datas = [
 const build = (data) => {
     return `
         <div class="card">
-        <h2 class='sub'>${data.sub}</h2>
-        <p class='title'>${data.title}</p>
+        <div class="currency">
+            <p class='sub'>${data.sub}</p>
+        </div>
+        <h2 class='title'>${data.title}</h2>
+        <hr>
         <p class='text'>${data.text}</p>
         <button>
             Save

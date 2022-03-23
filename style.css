@@ -128,7 +128,31 @@ body {
     padding: 40px;
     width: 350px;
 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
     background-color: var(--secondary);
     color: var(--primary);
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.currency {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primary);
+    color: var(--secondary)
+}
+
+.sub {
+    font-size: 80px;
+    font-weight: 400;
 }
