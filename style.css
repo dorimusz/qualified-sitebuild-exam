@@ -99,3 +99,15 @@ body {
     align-items: center;
     z-index: 10;
 }
+
+.headerButton {
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
