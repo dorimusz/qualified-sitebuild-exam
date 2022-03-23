@@ -53,9 +53,9 @@ const build = (data) => {
         </h2>
         
         <p class='text'>${data.text}</p>
-        <button>
+        <button class="cardButton">
             Save
-            <span class="material-icons md-36">arrow_forward</span>
+            <span class="material-icons md-36 arrow">arrow_forward</span>
         </button>
         </div>
     `
