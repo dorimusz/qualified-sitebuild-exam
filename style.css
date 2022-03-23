@@ -143,6 +143,7 @@ body {
     width: 160px;
     height: 160px;
     border-radius: 50%;
+    margin-bottom: 20px;
 
     display: flex;
     justify-content: center;
@@ -155,4 +156,14 @@ body {
 .sub {
     font-size: 80px;
     font-weight: 400;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+hr {
+    border-bottom: 1px solid;
+    margin: 10px 0;
 }

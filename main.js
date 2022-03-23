@@ -48,8 +48,10 @@ const build = (data) => {
         <div class="currency">
             <p class='sub'>${data.sub}</p>
         </div>
-        <h2 class='title'>${data.title}</h2>
-        <hr>
+        <h2 class='title'>${data.title}
+            <hr>
+        </h2>
+        
         <p class='text'>${data.text}</p>
         <button>
             Save
