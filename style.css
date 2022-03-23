@@ -111,3 +111,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* CARDS' CONTAINER */
+#root {
+    max-width: 1200px;
+    margin: 110px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
