@@ -126,7 +126,7 @@ body {
 .card {
     position: relative;
     padding: 40px;
-    width: 350px;
+    width: 270px;
 
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +136,7 @@ body {
 
     background-color: var(--secondary);
     color: var(--primary);
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .currency {
@@ -171,6 +171,7 @@ hr {
 .text {
     font-size: 18px;
     font-weight: 700;
+    margin-bottom: 25px;
 }
 
 .cardButton {
@@ -187,6 +188,7 @@ hr {
     align-items: center;
 
     background-color: var(--secondary);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     border: 1px solid;
     border-radius: 50px;
 
@@ -199,3 +201,7 @@ hr {
     padding-right: 5px;
 }
 
+.cardButton:hover {
+    background-color: var(--primary);
+    color: var(--secondary)
+}
