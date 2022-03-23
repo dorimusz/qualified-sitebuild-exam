@@ -171,6 +171,7 @@ hr {
 .text {
     font-size: 18px;
     font-weight: 700;
+    margin-bottom: 25px;
 }
 
 .cardButton {
@@ -199,3 +200,7 @@ hr {
     padding-right: 5px;
 }
 
+.cardButton:hover {
+  background-color: var(--primary);
+  color: var(--secondary)
+}
