@@ -167,3 +167,8 @@ hr {
     border-bottom: 1px solid;
     margin: 10px 0;
 }
+
+.text {
+    font-size: 18px;
+    font-weight: 700;
+}
