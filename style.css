@@ -93,6 +93,7 @@ body {
     
     background-color: var(--secondary);
     color: var(--primary);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
 
     display: flex;
     justify-content: space-between;
