@@ -1,207 +1,215 @@
 /* MAIN COLORS */
 :root {
-    --primary: #666;
-    --secondary: #fff;
+  --primary: #666;
+  --secondary: #fff;
 }
 
 /* CSS RESET */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    box-sizing: border-box;
-  
-    background: transparent;
-  
-    font-family: inherit;
-    
-    text-decoration: none;
-  }
-  
-  ol, ul, li {
-    list-style:none;
-    display:block;
-  }
-  
-  table {
-    border-collapse:collapse;
-    border-spacing:0
-  }
-  
-  a img {
-    border: none
-  }
-  
-  button, a {
-    cursor: pointer;
-    color: inherit
-  }
-  
-  textarea {
-    resize: none
-  }
-  
-  button, input, textarea, select {
-    appearance: none !important;
-    -webkit-appearance: none !important;
-    border-radius: 0
-  }
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+
+  background: transparent;
+
+  font-family: inherit;
+
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+a img {
+  border: none
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit
+}
+
+textarea {
+  resize: none
+}
+
+button,
+input,
+textarea,
+select {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0
+}
 
 /* ICONs */
 .material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 36px;  /* Preferred icon size was 24px*/
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-  
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
-  
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
-  
-    /* Support for IE. */
-    font-feature-settings: 'liga';
-  }
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;
+  /* Preferred icon size was 24px*/
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--primary);
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary);
 }
 
 
 /* HEADER */
 .topnav {
-    position: fixed;
-    top:0;
-    left: 0;
-    right: 0;
-    
-    width: 100%;
-    height: 80px;
-    padding: 0 15px 0 10px;
-    
-    background-color: var(--secondary);
-    color: var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 10;
+  width: 100%;
+  height: 80px;
+  padding: 0 15px 0 10px;
+
+  background-color: var(--secondary);
+  color: var(--primary);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
 }
 
 .headerButton {
-    height: 60px;
-    width: 60px;
-    background-color: var(--primary);
-    color: var(--secondary);
-    border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: 50px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* CARDS' CONTAINER */
 #root {
-    max-width: 1200px;
-    margin: 110px auto;
+  max-width: 1200px;
+  margin: 110px auto;
 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
 }
 
 .card {
-    position: relative;
-    padding: 40px;
-    width: 270px;
+  position: relative;
+  padding: 40px;
+  width: 270px;
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 
-    background-color: var(--secondary);
-    color: var(--primary);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  background-color: var(--secondary);
+  color: var(--primary);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .currency {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    background-color: var(--primary);
-    color: var(--secondary)
+  background-color: var(--primary);
+  color: var(--secondary)
 }
 
 .sub {
-    font-size: 80px;
-    font-weight: 400;
+  font-size: 80px;
+  font-weight: 400;
 }
 
 .title {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 hr {
-    border-bottom: 1px solid;
-    margin: 10px 0;
+  border-bottom: 1px solid;
+  margin: 10px 0;
 }
 
 .text {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
 }
 
 .cardButton {
-    position: absolute;
-    bottom: -25px;
+  position: absolute;
+  bottom: -25px;
 
-    width: 160px;
-    height: 50px;
-    padding-left: 20px;
-    font-size: 14px;
+  width: 160px;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 14px;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 
-    background-color: var(--secondary);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-    border: 1px solid;
-    border-radius: 50px;
+  background-color: var(--secondary);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid;
+  border-radius: 50px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .arrow {
-    position: absolute;
-    right: 0;
-    padding-right: 5px;
+  position: absolute;
+  right: 0;
+  padding-right: 5px;
 }
 
 .cardButton:hover {
-    background-color: var(--primary);
-    color: var(--secondary)
+  background-color: var(--primary);
+  color: var(--secondary)
 }
